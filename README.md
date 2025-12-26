@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+📌 Project Overview
 
-## Project info
+This is a modern frontend web application built using React (Vite) with Tailwind CSS and shadcn/ui components.
+The project focuses on a clean UI, reusable components, and scalable frontend architecture.
+Backend services are integrated using Supabase.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+An AI-assisted UI generation tool was used for initial layout ideas, and the project was customized, structured, and implemented manually.
 
-## How can I edit this code?
+🛠️ Tech Stack
 
-There are several ways of editing your application.
+Frontend: React + Vite
 
-**Use Lovable**
+Styling: Tailwind CSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+UI Components: shadcn/ui
 
-Changes made via Lovable will be committed automatically to this repo.
+Backend / Auth / DB: Supabase
 
-**Use your preferred IDE**
+Language: TypeScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Package Manager: npm / Bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✨ Features
 
-Follow these steps:
+Responsive and modern UI
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Component-based architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Tailwind-powered styling
 
-# Step 3: Install the necessary dependencies.
-npm i
+Supabase integration ready
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Clean and maintainable codebase
+
+📂 Project Structure
+src/            # Application source code
+public/         # Static assets
+supabase/       # Supabase configuration
+index.html      # Entry HTML file
+
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+2️⃣ Install dependencies
+npm install
+# or
+bun install
+
+3️⃣ Run the project
 npm run dev
-```
+# or
+bun dev
 
-**Edit a file directly in GitHub**
+🔐 Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create a .env file in the root directory and add your Supabase credentials:
 
-**Use GitHub Codespaces**
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+.env is intentionally excluded from version control.
 
-This project is built with:
+📌 Notes
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+node_modules is not included in the repository
 
-## How can I deploy this project?
+This project is currently under development
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Deployment will be added soon
 
-## Can I connect a custom domain to my Lovable project?
+👤 Author
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Rohith
+Frontend Developer | React | Tailwind | Supabase
